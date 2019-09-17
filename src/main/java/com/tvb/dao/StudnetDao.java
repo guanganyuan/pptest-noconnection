@@ -8,11 +8,13 @@ public interface StudnetDao {
 
     List<Student> findAll();
 
-    Student save(Student student);
+    boolean save(Student student);
 
     
 
-    Student update(Student student);
+    boolean update(Student student);
+    
+    Studnet findById(int id);
 
 
 
