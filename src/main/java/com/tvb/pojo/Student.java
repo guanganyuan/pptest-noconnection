@@ -11,6 +11,8 @@ public class Student {
 
     private String dogname;
     
+    private int count;
+    
 
 
     public Student() {
