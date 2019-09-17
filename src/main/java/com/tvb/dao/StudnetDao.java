@@ -10,8 +10,10 @@ public interface StudnetDao {
 
     Student save(Student student);
 
-    boolean delete(int id);
+    
 
     Student update(Student student);
+
+
 
 }
