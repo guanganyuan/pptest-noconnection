@@ -10,11 +10,11 @@ public interface StudnetDao {
 
     boolean save(Student student);
 
-    
+
 
     boolean update(Student student);
     
-    Studnet findById(int id);
+    Student findById(int id);
 
 
 
