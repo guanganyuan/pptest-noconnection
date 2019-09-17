@@ -3,44 +3,25 @@ package com.tvb.pojo;
 public class Student {
     private int age;
     private String name;
-    private double height;
+
     private String addr;
 
     private String hobby;
     private int money;
+
+    private String dogname;
     
 
 
     public Student() {
     }
 
-    public Student(int age, String name, double height) {
+    public Student(int age, java.lang.String name, java.lang.String addr, java.lang.String hobby, int money, java.lang.String dogname) {
         this.age = age;
         this.name = name;
-        this.height = height;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public double getHeight() {
-        return height;
-    }
-
-    public void setHeight(double height) {
-        this.height = height;
+        this.addr = addr;
+        this.hobby = hobby;
+        this.money = money;
+        this.dogname = dogname;
     }
 }
