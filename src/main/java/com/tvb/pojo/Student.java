@@ -7,6 +7,8 @@ public class Student {
     private String addr;
 
     private String hobby;
+    private int money;
+    
 
 
     public Student() {
