@@ -12,7 +12,7 @@ public interface StudnetDao {
 
 
 
-    boolean update(Student student);
+    int update(Student student);
     
     Student findById(int id);
 
