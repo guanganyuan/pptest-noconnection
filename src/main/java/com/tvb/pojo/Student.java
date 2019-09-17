@@ -9,6 +9,8 @@ public class Student {
     private String hobby;
     private int money;
     
+    private int count;
+    
 
 
     public Student() {
